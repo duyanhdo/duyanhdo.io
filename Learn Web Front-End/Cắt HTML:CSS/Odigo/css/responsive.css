@@ -1,0 +1,131 @@
+@media (min-width: 1440px) {
+	.hero-wrap.container {
+		max-width: calc(1053px + 30px);
+	}
+
+	.container {
+		max-width: calc(1262px + 30px);
+	}
+
+	.benefits {
+		padding: 93px 102px;
+	}
+
+	.benefits .card-wrap.row {
+		margin-left: -37px;
+		margin-right: -37px;
+	}
+
+	.benefits .card {
+		padding-left: 37px;
+		padding-right: 37px;
+	}
+}
+
+@media (min-width: 992px) {
+	.pre-nei .row {
+		margin-left: -38px;
+		margin-right: -38px;
+	}
+	.pre-nei .block {
+		padding-left: 38px;
+		padding-right: 38px;
+	}
+}
+
+@media (min-width: 768px) {
+	.today .row {
+	margin-left: -29px;
+	margin-right: -29px;
+	}
+	.today .card {
+	padding-left: 29px;
+	padding-right: 29px;
+	}
+}
+
+@media (max-width: 1024px) {
+	footer ul {
+		padding-right: 70px;
+	}
+}
+
+@media (max-width: 991px) {
+	.benefits, .footer {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media (max-width: 576px) {
+	.hero {
+		background-size: unset;
+	}
+	.hero-wrap {
+		padding-top: 10px;
+	}	
+	.hero-header {
+		margin-top: calc(176px / 2);
+	}
+	.input-wrap {
+		width: 100%;
+		padding-right: 0;
+	}
+	.hero input[type=text] {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.benefits {
+		margin-top: -20px;
+		padding-top: 45px;
+		padding-bottom: 0;
+		border-top-right-radius: 6px;
+		border-top-left-radius: 6px;
+	}
+	.card-wrap {
+		padding-top: 60px;
+	}
+	.benefits .btn-wrap {
+		padding-bottom: 33px;
+		padding-top: 20px;
+	}
+	.benefits .card-title {
+		text-align: center;
+	}
+	.card-image {
+		margin: auto;
+	}
+
+	.inspired__header-wrap {
+		flex-direction: column;
+	}
+	.inspired .img-name {
+		left: calc((29px + 15px) / 2);
+	}
+	.footer {
+		padding-top: 59px;
+		padding-bottom: 59px;
+		flex-direction: column;
+	}
+	footer ul {
+		padding-top: 30px;
+		padding-right: 0;
+		text-align: center;
+		width: 100%;
+	}
+	footer li:not(.list-title) {
+		display: inline-block;
+	}
+	footer li:not(.list-title)::after {
+		content: ' | ';
+	}
+	footer li:last-child::after {
+		content: '';
+	}
+}
+
+@media (width: 768px) {
+	.benefits .card-title {
+		min-height: 42px;
+	}
+}

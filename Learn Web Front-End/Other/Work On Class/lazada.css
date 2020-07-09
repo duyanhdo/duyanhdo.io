@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+}
+.menu1{
+    width: 300px;
+    height: 515px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.25);
+}
+.to1,.to2,.to3,.to4,.to5,.to6,.to7,.to8,.to9,.to10,.to11,.to12{
+    padding: 10px;
+    color: #757575;
+    font-size: 20px;
+}
+.nho,.nho1,.nho2,.nho3,.nho4,.nho6,.nho5,.nho7,.nho8,.nho9,.nho10,.nho11,.nho12{
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    list-style-type: none;
+    width: 300px;
+    height: 515px;
+    opacity: 0;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.25);
+}
+.thanhphan2{
+    padding: 10px
+}
+.span{
+    color: #299db6;
+    float: right;
+    opacity: 0;
+}
+.to1:hover{
+    color: #299db6;
+    background: #edeff1;
+}
+.to1:hover .nho1{
+    opacity: 1;
+    color: #797979
+}
+.to1:hover .span{
+    opacity: 1
+}
+.to2:hover .span{
+    opacity: 1
+}
+.to3:hover .span{
+    opacity: 1
+}
+.to4:hover .span{
+    opacity: 1
+}
+.to5:hover .span{
+    opacity: 1
+}
+.to6:hover .span{
+    opacity: 1
+}
+.to7:hover .span{
+    opacity: 1
+}
+.to8:hover .span{
+    opacity: 1
+}
+.to9:hover .span{
+    opacity: 1
+}
+.to10:hover .span{
+    opacity: 1
+}
+.to11:hover .span{
+    opacity: 1
+}
+.to12:hover .span{
+    opacity: 1
+}
+.to2:hover{
+    color: #299db6;
+    background: #edeff1
+}
+.to2:hover .nho2{
+    opacity: 1;
+    color: #797979
+}
+.to3:hover{
+    color: #299db6;
+    background: #edeff1
+}
+.to3:hover .nho3{
+    opacity: 1;
+    color: #797979
+}
+.to4:hover{
+    color: #299db6;
+    background: #edeff1
+}
+.to4:hover .nho4{
+    opacity: 1;
+    color: #797979
+}
+.to5:hover{
+    color: #299db6;
+    background: #edeff1
+}
+.to5:hover .nho5{
+    opacity: 1;
+    color: #797979
+}
+.to6:hover{
+    color: #299db6;
+    background: #edeff1
+}
+.to6:hover .nho6{
+    opacity: 1;
+    color: #797979
+}
+.to7:hover{
+    color: #299db6;
+    background: #edeff1
+}
+.to7:hover .nho7{
+    opacity: 1;
+    color: #797979
+}
+.to8:hover{
+    color: #299db6;
+    background: #edeff1
+}
+.to8:hover .nho8{
+    opacity: 1;
+    color: #797979
+}
+.to9:hover{
+    color: #299db6;
+    background: #edeff1
+}
+.to9:hover .nho9{
+    opacity: 1;
+    color: #797979
+}
+.to10:hover{
+    color: #299db6;
+    background: #edeff1
+}
+.to10:hover .nho10{
+    opacity: 1;
+    color: #797979
+}
+.to11:hover{
+    color: #299db6;
+    background: #edeff1
+}
+.to11:hover .nho11{
+    opacity: 1;
+    color: #797979
+}
+.to12:hover{
+    color: #299db6;
+    background: #edeff1
+}
+.to12:hover .nho12{
+    opacity: 1;
+    color: #797979
+}
+.small1{
+    list-style-type: none;
+    position: absolute;
+    left: 100%;
+    top:0px;
+    width: 300px;
+    height: 515px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.25);
+    opacity: 0
+}
+.thanhphan3{
+    padding: 10px;
+    color: #797979;
+}
+.thanhphan2:hover .small1{
+    opacity: 1;
+}
+.thanhphan2:hover{
+    color: #299db6;
+    background: #edeff1
+}
+.span2{
+    float: right;
+    color: #299db6;
+    opacity: 0;
+}
+.thanhphan2:hover .span2{
+    opacity: 1
+}

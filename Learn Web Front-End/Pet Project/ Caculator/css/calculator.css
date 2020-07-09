@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	position: relative;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 40px;
+}
+.img{
+	position: fixed;
+	z-index: 1;
+	top:0;
+	right: 0;
+	width: 100%;
+	color: #F1EC5F	
+}
+.cal{
+	width: 350px;
+	height: 520px;
+	border-radius: 20px;
+	border: 1px solid black;
+	position: absolute;
+	z-index: 2;
+	top:100px;
+	right: calc(100%/2.7);
+	background: #ff9f08;
+}
+.cal2{
+	border-bottom: 1px solid black;
+	height: calc(100%/6);
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+}
+.cal2a{
+	height: calc(100%/6);
+	width: 100%;
+	display: flex;
+}
+.onea{
+	flex:3.01;
+	border-right: 1px solid black;
+	height: 100%;
+	overflow-x: auto;
+	line-height: 90px;
+}
+.oneb{
+	flex: 1;
+	text-align: center;
+	line-height: 90px
+}
+.cal3{
+	flex:1;
+	border-right: 1px solid black;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cal3a,.cal3b{
+	height: 100%;
+	flex:1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cal3:hover{
+	background: #e7ea0d4d	;
+}
+.cal3a:hover{
+	background: #e7ea0d4d	;
+}
+.oneb:hover{
+	background: #e7ea0d4d	;
+}
+.cal3b:hover{
+	background: #e7ea0d4d	;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

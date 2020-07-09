@@ -1,0 +1,162 @@
+@media (min-width: 1440px) {
+	.hero-wrap.container {
+		max-width: calc(1053px + 30px);
+	}
+
+	.container {
+		max-width: calc(1262px + 30px);
+	}
+
+	.benefits {
+		padding: 93px 102px;
+	}
+
+	.benefits .card-wrap.row {
+		margin-left: -37px;
+		margin-right: -37px;
+	}
+
+	.benefits .card {
+		padding-left: 37px;
+		padding-right: 37px;
+	}
+}
+
+@media (max-width: 991px) {
+	.benefits {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media (max-width: 576px) {
+	.hero-wrap {
+		padding-top: 10px;
+	}	
+	.hero-header {
+		margin-top: calc(176px / 2);
+	}
+	.input-wrap {
+		width: 100%;
+		padding-right: 0;
+	}
+	.hero input[type=text] {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.benefits {
+		margin-top: -20px;
+		padding-top: 45px;
+		padding-bottom: 0;
+		border-top-right-radius: 6px;
+		border-top-left-radius: 6px;
+	}
+	.card-wrap {
+		padding-top: 60px;
+	}
+	.benefits .btn-wrap {
+		padding-bottom: 33px;
+		padding-top: 20px;
+	}
+	.benefits .card-title {
+		text-align: center;
+	}
+	.card-image {
+		margin: auto;
+	}
+	.mt{
+		padding: 5vw 0 5vw 0;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.middle{
+		padding-left: 15px;
+	}
+}
+
+@media (width: 768px) {
+	.benefits .card-title {
+		min-height: 42px;
+	}
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/* ==== Hero ==== */
+.hero {
+	min-height: 962px;
+	background-image: url('Hero.png');
+	color: white;
+}
+
+.hero-wrap {
+	padding-top: 56px;
+}
+
+.nav-item {
+	padding-right: 82px;
+}
+
+.nav-item:last-child {
+	padding-right: 0;
+}
+
+.hero-header {
+	margin-top: 10vw;
+	font-size: 50px;
+	line-height: 60px;
+	max-width: 619px;
+}
+
+.hero-desc {
+	margin-top: 22px;
+	max-width: 546px;
+}
+
+.button-wrap {
+	margin-top: 59px;
+}
+
+.input-wrap {
+	padding-right: 61px;
+	position: relative;
+}
+
+.hero input[type=text] {
+	border: none;
+	border-bottom: 3px solid #D8D8D8;
+	background-color: transparent;
+	width: 297px;
+	padding-bottom: 22px;
+	padding-left: 44px;
+	
+}
+
+.hero input[type=text]:focus {
+	color: white;
+	font-size: 18px;
+	outline: none;
+}
+
+.hero input[type=text]::placeholder {
+	color: white;
+	font-size: 18px;
+}
+
+.fa-circle {
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+
+.hero .btn {
+	font-size: 24px;
+	background-color: #1B7DFF;
+	padding: 14px 39px;
+	border-radius: unset;
+}

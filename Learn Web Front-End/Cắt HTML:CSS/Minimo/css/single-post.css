@@ -1,0 +1,261 @@
+.main {
+  margin-top: 100px
+}
+
+.content img, .sidebar img {
+  width: 100%;
+}
+
+/* ==== Left ==== */
+.post__category {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  padding-bottom: 25px;
+
+}
+
+.post__heading {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  padding-bottom: 30px;
+}
+
+.post__paragraph {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  padding-bottom: 64px;
+}
+
+.post__img {
+  margin-bottom: 57px;
+}
+
+.post__share-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  max-width: 200px;
+  padding-top: 6px;
+}
+
+blockquote {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  font-style: italic;
+  padding: 0 20px 0 20px;
+  margin-bottom: 32px;
+}
+
+.post__share-text {
+  font-size: 13px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  padding-right: 20px;
+  line-height: 21px;
+}
+.post__share-social {
+  font-size: 14px;
+  color: var(--light);
+}
+
+/* ==== Right ==== */
+.author {
+  margin-bottom: 70px;
+}
+.author__heading {
+  font-size: 24px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 0.833;
+  margin: 28px 0 20px 0;
+}
+
+.author__desc {
+  font-size: 12px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.667;
+  margin-bottom: 22px;
+}
+
+.author__icons {
+  color: #b4ad9e;
+}
+
+.top-post__list {
+  margin-bottom: 55px;
+}
+
+.top-post__heading {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 35px;
+}
+
+.top-post__item {
+  font-size: 16px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.top-post__item::before {
+  content: "\2022";
+  color: #b4ad9e;
+  font-weight: bold;
+  display: inline-block;
+  width: 27px;
+}
+
+.comment {
+  font-size: 12px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-top: 15px;
+  padding-left: 27px;
+}
+
+/* ==== You may also like ==== */
+.suggestion {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-top: -10px;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background-color: #f5f5f5;
+  margin-top: 115px;
+}
+
+.suggestion .card {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #f5f5f5;
+  margin-bottom: 0;
+}
+
+.suggestion__heading {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding-top: 65px;
+  padding-bottom: 40px;
+}
+
+.suggestion .card-title {
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: var(--text);
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+
+/* ==== Comments ==== */
+.comments {
+  margin-bottom: 500px;
+
+}
+.comments__heading {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding-top: 65px;
+  padding-bottom: 35px;
+}
+
+.comments__reply {
+  margin-bottom: 31px;
+}
+
+.comments textarea {
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.media img {
+  margin-right: 35px;
+}
+
+.media-heading {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.media-paragraph {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  margin-bottom: 25px;
+}
+
+.comments__reply {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+textarea {
+  height: 70px;
+  width: 100%;
+  padding-left: 35px;
+  padding-top: 25px;
+}
+
+textarea::placeholder {
+  line-height: 70px;
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(200, 200, 200);
+  text-transform: uppercase;
+  transform: translateY(-22px);
+}
+
+/* ==== Footer ==== */
+@media (min-width: 1200px) {
+  .footer-wrap {
+    max-width: 930px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

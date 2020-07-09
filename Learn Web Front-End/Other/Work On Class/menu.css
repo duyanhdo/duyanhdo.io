@@ -1,0 +1,33 @@
+.nho{
+    float:left;
+    margin-left: 5px;
+    border: 1px solid greenyellow;
+    padding: 10px;
+    width: 100px;
+}
+.nho2{
+    margin-left: 5px;
+    border: 1px solid greenyellow;
+    padding: 10px;
+    width: 100px;
+}
+.nho:hover .ul { 
+    visibility: visible;
+}
+.nho2:hover .ul2 { 
+    visibility: visible;
+}
+.ul{
+  list-style-type: none;
+  position: absolute;
+  left: 35.8%;
+  top:60px;
+  visibility: hidden;
+}
+.ul2{
+  list-style-type: none;
+  position: absolute;
+  left: 75.8%;
+  top:161px;
+  visibility: hidden;
+}

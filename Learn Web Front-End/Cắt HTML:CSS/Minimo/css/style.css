@@ -1,0 +1,256 @@
+/* Reset CSS */
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+:root {
+	--logo: black;
+	--text: #626262;
+	--medium: #333333;
+	--light: #b4ad9e;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*======== Header =======*/
+
+.header {
+	margin-top: 70px;
+	
+}
+
+.navbar {
+	margin-bottom: 46px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	font-family: 'Inconsolata', monospace;
+	color: var(--logo);
+	text-transform: uppercase;
+}
+
+.nav-item {
+	padding: 0 60px;
+}
+
+.nav-item:first-child {
+	padding-left: 0;
+}
+
+.nav-item:last-child {
+	padding-right: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+	font-size: 14px;
+	font-family: 'Playfair Display', serif;
+	color: var(--text);
+	text-transform: uppercase;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: var(--light);
+}
+
+/* ======== Main =======*/
+main {
+}
+
+/* ==== Section 1 ====*/
+.section1 {
+	margin-top: 100px;
+	max-width: 900px;
+}
+
+.section__title {
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	color: var(--light);
+	text-transform: uppercase;
+	padding-bottom: 25px;
+}
+
+.section__heading {
+	font-size: 30px;
+	font-family: "Playfair Display", serif;
+	color: var(--text);
+	padding-bottom: 30px;
+}
+
+.section__heading a {
+	color: unset;
+}
+
+.section__paragraph {
+	font-size: 14px;
+	font-family: "Playfair Display", serif;
+	color: var(--text);
+	padding-bottom: 50px;
+}
+
+.section__comment {
+	font-size: 14px;
+	font-family: "Ubuntu", sans-serif;
+	color: var(--light);
+	text-transform: uppercase;
+}
+
+/* ==== Section 2 ==== */
+.section2 {
+	margin-top: 130px;
+	max-width: 900px;
+}
+
+.card {
+	border: none;
+	margin-bottom: 130px;
+}
+
+.card:nth-child(odd) {
+	padding-right: 30px;
+}
+
+.card:nth-child(even) {
+	padding-left: 30px;
+}
+
+.card-body {
+	padding-top: 30px;
+}
+
+.card-category {
+	font-size: 14px;
+	font-family: "Ubuntu", sans-serif;
+	color: var(--light);
+	text-transform: uppercase;
+	padding-bottom: 25px;
+}
+
+.card-title {
+	font-size: 30px;
+	font-family: "Playfair Display", serif;
+	color: var(--text);
+	margin-bottom: 30px;
+}
+
+.card-text {
+	font-size: 14px;
+	font-family: "Playfair Display", serif;
+	color: var(--text);
+}
+
+/* ======== Section 3 ======== */
+.section3 {
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-top: -10px;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	background-color: #f0f0f0;
+}
+
+.signup-heading {
+	font-size: 30px;
+	font-family: "Playfair Display", serif;
+	color: var(--medium);
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+
+.signup-input {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid black;
+	width: 400px;
+	margin-bottom: 75px;
+	margin-left: 35px;
+}
+
+.signup-input:focus {
+	outline: none;
+}
+
+.signup-submit {
+	transform: translateX(-35px);
+}
+
+
+
+/* ======== Section 4 ======== */
+.section4 {
+	margin-top: 100px;
+	max-width: 900px;
+}
+
+.loadmore {
+	border-radius: unset;
+	font-size: 20px;
+	font-family: "Playfair Display", serif;
+	color: var(--text);
+	border-color: var(--text);
+	margin-top: 30px;
+	margin-bottom: 1370px;
+}
+
+.hidden {
+	display: none;
+}
+
+#hidden-left {
+	padding: 0 30px 0 15px;
+}
+
+#hidden-right {
+	padding: 0 15px 0 30px;
+}
+
+/* ======== Footer ======== */
+footer {
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-top: -10px;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	height: 100px;
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	font-family: "Playfair Display", serif;
+}
+
+.footer-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-left, .footer-right {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.footer-left-1 {
+	padding-right: 15px;
+}
+
+.footer-right-list {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-right-list-item {
+	padding: 0 7.5px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/calculator.css">
+</head>
+<body>
+	<img class="img" src="images/Calculator.jpg">
+	<div class="cal">
+		<div class="cal2">
+			<a class="onea" href=""></a>
+			<a class="oneb" href="">AC</a>
+		</div>
+		<div class="cal2">
+			<a class="cal3" onclick="binhphuong()">x<sup>2</sup></a>
+			<a class="cal3" onclick="can2()" >&#8730x</a>
+			<a class="cal3" onclick="percent()">%</a>
+			<a class="cal3a" onclick="giaithua()">!</a>
+		</div>
+		<div class="cal2">
+			<a class="cal3" onclick="show(7)">7</a>
+			<a class="cal3" onclick="show(8)">8</a>
+			<a class="cal3"onclick="show(9)">9</a>
+			<a class="cal3a"onclick="show(' / ')">&#247</a>
+		</div>
+		<div class="cal2">
+			<a class="cal3"onclick="show(4)">4</a>
+			<a class="cal3"onclick="show(5)">5</a>
+			<a class="cal3"onclick="show(6)">6</a>
+			<a class="cal3a"onclick="show(' * ')">x</a>
+		</div>
+		<div class="cal2">
+			<a class="cal3" onclick="show(1)">1</a>
+			<a class="cal3"onclick="show(2)">2</a>
+			<a class="cal3"onclick="show(3)">3</a>
+			<a class="cal3a"onclick="show(' - ')">-</a>
+		</div>
+		<div class="cal2a">
+			<a class="cal3" onclick="show(0)">0</a>
+			<a class="cal3"onclick="show('.')">.</a>
+			<a class="cal3"onclick="tinh()">=</a>
+			<a class="cal3b" onclick="show(' + ')">+</a>
+		</div>
+	</div>
+	<!-- Bootstrap -->
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/calculator.js"></script>
+</body>
+</html>

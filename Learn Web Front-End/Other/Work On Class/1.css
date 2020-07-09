@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding:0;
+}
+html,body{
+	height: 100%
+}
+.to{
+	height: 400px;
+	width: 100%;
+}
+.phai {
+	height: 400px;
+	width: 50%;
+	float:right;
+}
+.trai{
+	background: red;
+	height: 100%;
+	width: 50%;
+	float:left;
+	line-height: 400px;
+}
+.duoi{
+	height: 50%;
+	width: 100%;
+	background: blue;
+	line-height: 200px
+}
+.tren{
+	height: 50%;
+	width: 100%;
+	background: green;
+	line-height: 200px
+}
+div{
+	color: white;
+	text-align: center;
+}
+/*//ok thay doi*/

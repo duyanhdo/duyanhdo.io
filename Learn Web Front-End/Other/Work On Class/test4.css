@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.to{
+    width: 170px;
+    height: 40px;
+    position: relative;
+    margin-left: -20px
+}
+span{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold
+}
+.hieuung1,.hieuung2,.hieuung3{
+    width: 100%;
+    opacity: 1;
+    position: absolute;
+    top: -5px;
+}
+.sieuto{
+    position: absolute;
+    left: calc(50% - 100px);
+    top:40px;
+}
+@keyframes coding{
+    0%{opacity: 0}
+    16.67%{opacity: 1}
+    33.33%{opacity: 0}
+}
+@keyframes teaching{
+    33.33%{opacity: 0}
+    49.99%{opacity: 1}
+    66.66%{opacity: 0}
+}
+@keyframes learning{
+    66.66%{opacity: 0}
+    83.32%{opacity: 1}
+    100%{opacity: 0}
+}
+.hieuung1{
+    animation: teaching 2s infinite;
+    background: yellow;
+    opacity: 0
+}
+.hieuung2{
+    animation: coding 2s infinite;
+    background: green;
+    opacity: 0
+}
+.hieuung3{
+    animation: learning 2s infinite;
+    background: red;
+    opacity: 0
+}

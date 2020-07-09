@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.9.0-web/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/LandingPage.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light nen">
+    <div class="container">
+      <a class="navbar-brand" href="#"><svg width="127" height="17" viewBox="0 0 127 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.0273 3.58203L7.125 17H5.13281L0.527344 0.0898438H2.73047L6.11719 13.8945H6.21094L10.0195 0.0898438H12.1523L15.9609 13.8945H16.0547L19.4414 0.0898438H21.6445L17.0391 17H15.0469L11.1445 3.58203H11.0273ZM37.567 17L35.8677 12.1602H29.1412L27.442 17H25.2271L31.4615 0.0898438H33.5474L39.7818 17H37.567ZM32.4693 2.65625L29.7623 10.3672H35.2467L32.5396 2.65625H32.4693ZM48.0871 17H46.0011V0.0898438H48.0519L57.3097 13.3672H57.4152V0.0898438H59.5011V17H57.4503L48.1925 3.76953H48.0871V17ZM67.0681 0.0898438H72.7517C77.7673 0.0898438 80.7321 3.21875 80.7321 8.53906C80.7321 13.8711 77.779 17 72.7517 17H67.0681V0.0898438ZM69.1775 1.98828V15.1016H72.611C76.4431 15.1016 78.5759 12.7578 78.5759 8.5625C78.5759 4.33203 76.4548 1.98828 72.611 1.98828H69.1775ZM98.1077 15.1016V17H87.6311V0.0898438H98.1077V1.98828H89.7405V7.41406H97.6741V9.28906H89.7405V15.1016H98.1077ZM107.28 1.96484V8.44531H111.323C113.491 8.44531 114.722 7.27344 114.722 5.19922C114.722 3.17188 113.409 1.96484 111.229 1.96484H107.28ZM107.28 10.3086V17H105.171V0.0898438H111.511C114.768 0.0898438 116.901 2.08203 116.901 5.12891C116.901 7.48438 115.624 9.3125 113.503 9.98047L117.417 17H114.944L111.323 10.3086H107.28Z" fill="#333333"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M124 17C125.657 17 127 15.6569 127 14C127 12.3431 125.657 11 124 11C122.343 11 121 12.3431 121 14C121 15.6569 122.343 17 124 17Z" fill="#EF5D64"/>
+      </svg>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Places</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Articles</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>	
+<div class="container relative">
+  <div class="row">
+    <div class="col-12">
+      <img src="Images/banner.png" class="img">
+    </div>
+    <div class="to">
+      <div class="arrow">
+        <svg class="ar1" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <rect x="18" y="18" width="18" height="18" transform="rotate(-180 18 18)" fill="url(#pattern0)"/>
+          <defs>
+            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlink:href="#image0" transform="scale(0.0131579)"/>
+            </pattern>
+            <image id="image0" width="76" height="76"xlink:href="data:image/png;base64,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"/>
+          </defs>
+        </svg>
+
+        <svg class="ar2" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <rect width="18" height="18" fill="url(#pattern0)"/>
+          <defs>
+            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlink:href="#image0" transform="scale(0.0131579)"/>
+            </pattern>
+            <image id="image0" width="76" height="76" xlink:href="data:image/png;base64,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"/>
+          </defs>
+        </svg>
+      </div>
+      <div class="text">
+        <b>Istanbul The City of <br> Wonders,</b>
+        <span>the <br> multi-cultural Heaven.</span>
+      </div>
+    </div>
+  </div>
+</div>  
+<div class="container">
+  <div class="row">
+    <div class="col-8">
+      <b class="title">Random Facts Around the world</b>
+    </div>
+    <div class="col-12">
+      <hr>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="card-body">
+        <h1 class="item4">48</h1>
+        <b class="card-title item1">Is the Number of <br> algeria’s states. </b>
+        <p class="card-text item2">Beautiful algeria, a country of diverse cultures and cities, Sea & sahara …</p>
+        <a href="#" class="item3 a">See more</a>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="card-body">
+        <h1 class="item4">7M</h1>
+        <b class="card-title item1">Tourists in Tunisia <br> yearly.</b>
+        <p class="card-text item2">Tunisia is a small stunning country in north africa …</p> 
+        <a href="#" class="item3 b">See more</a>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="card-body">
+        <h1 class="item4">632</h1>
+        <b class="card-title item1">Hotels to welcome you <br> in Morroco. </b>
+        <p class="card-text item2">No one would like to miss out on such a culturally rich and environmenta…</p>
+        <a href="#" class="item3 c">See more</a>
+      </div>
+    </div>
+    <div class="col-12">
+      <hr>
+    </div>
+    <div class="col-12">
+      <b class="title2">News Blog</b>
+    </div>
+    <div class="col-sm-6">
+      <div class="card-deck">
+        <div class="card" style="border: none;">
+          <img class="card-img-top" src="Images/1.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Ut.</h5>
+            <p class="card-text">Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card-deck">
+        <div class="card" style="border: none;">
+          <img class="card-img-top" src="Images/2.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Ut.</h5>
+            <p class="card-text">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card-deck">
+        <div class="card" style="border: none;">
+          <img class="card-img-top" src="Images/3.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Ut.</h5>
+            <p class="card-text">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card-deck">
+        <div class="card" style="border: none;">
+          <img class="card-img-top" src="Images/4.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Ut.</h5>
+            <p class="card-text">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 text-center">
+     <button type="button" class="btn btn-outline-secondary">More</button>
+   </div>
+ </div>
+</div>
+<div class="wander">
+  <i class="text1">“Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque.”</i> <br>
+  <div class="wrap">
+    <img src="Images/Oval.png" class="img1">
+    <div class="right">
+      <b class="ali">Ali benabbes</b> <br>
+      <b class="ali2">Wanderer</b>
+    </div>
+  </div>
+</div>
+<div class="newsletter">
+  <p class="new1">For all the latest news Subscribe to our Newsletter</p>
+  <div class="email">
+    <div class="left">
+      <svg class="img2" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.3334 4.75H31.6667C34.2723 4.75 36.3995 6.86666 36.4166 9.46828C36.417 9.48649 36.417 9.50469 36.4167 9.52288V28.5C36.4167 31.1161 34.2828 33.25 31.6667 33.25H6.3334C3.71728 33.25 1.5834 31.1161 1.5834 28.5V9.51512C1.58327 9.50267 1.58329 9.49021 1.58345 9.47774C1.59551 6.87179 3.72471 4.75 6.3334 4.75ZM4.75007 12.541V28.5C4.75007 29.3672 5.46618 30.0833 6.3334 30.0833H31.6667C32.5339 30.0833 33.2501 29.3672 33.2501 28.5V12.5411L19.9081 21.8804C19.3629 22.2621 18.6373 22.2621 18.0921 21.8804L4.75007 12.541ZM33.0813 8.79378L19.0001 18.6506L4.91883 8.79373C5.18068 8.27595 5.71914 7.91667 6.3334 7.91667H31.6667C32.281 7.91667 32.8195 8.27597 33.0813 8.79378Z" fill="black"/>
+        <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="1" y="4" width="36" height="30">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M6.3334 4.75H31.6667C34.2723 4.75 36.3995 6.86666 36.4166 9.46828C36.417 9.48649 36.417 9.50469 36.4167 9.52288V28.5C36.4167 31.1161 34.2828 33.25 31.6667 33.25H6.3334C3.71728 33.25 1.5834 31.1161 1.5834 28.5V9.51512C1.58327 9.50267 1.58329 9.49021 1.58345 9.47774C1.59551 6.87179 3.72471 4.75 6.3334 4.75ZM4.75007 12.541V28.5C4.75007 29.3672 5.46618 30.0833 6.3334 30.0833H31.6667C32.5339 30.0833 33.2501 29.3672 33.2501 28.5V12.5411L19.9081 21.8804C19.3629 22.2621 18.6373 22.2621 18.0921 21.8804L4.75007 12.541ZM33.0813 8.79378L19.0001 18.6506L4.91883 8.79373C5.18068 8.27595 5.71914 7.91667 6.3334 7.91667H31.6667C32.281 7.91667 32.8195 8.27597 33.0813 8.79378Z" fill="white"/>
+        </mask>
+        <g mask="url(#mask0)">
+          <rect width="38" height="38" fill="black"/>
+        </g>
+      </svg>
+      <input type="email" placeholder="Email@exemple.com" name="">
+    </div>
+    <i class="fas fa-chevron-right"></i>
+  </div>
+</div>
+<div class="container bot">
+  <div class="row">
+    <div class="col-12">
+      <hr>
+    </div>
+    <div class="col-lg-5 col-md-4 col-sm-12">
+      <p class="text-left ft">Designed by: Ali benabbes</p>
+    </div>
+    <div class="col-lg-7 col-md-8 col-sm-12">
+      <div class="text-right ft2">
+        <p class="footer">Places</p>
+        <p class="footer">About</p>
+        <p class="footer">Contact</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Bootstrap -->
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

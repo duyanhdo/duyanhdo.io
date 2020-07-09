@@ -1,0 +1,11 @@
+.elementToFadeInAndOut {
+    width:200px;
+    height: 200px;
+    background: yellowgreen;
+    animation: fadeinout 4s infinite ;
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}

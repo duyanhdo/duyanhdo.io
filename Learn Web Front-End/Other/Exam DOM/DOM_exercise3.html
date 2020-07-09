@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Thay đổi style</title>
+</head> 
+<body>
+	<ul>
+		<li>naruto sasuke sakura</li>
+		<li>shikamaru ino choiji</li>
+		<li>neiji kiba tenten</li>
+	</ul>
+	<script type="text/javascript" src="jquery-3.4.1.js"></script>
+	<script>
+		//Code
+		// let li_1 = document.getElementsByTagName("li")[0];
+		// li_1.addEventListener("click",a);
+		// function a(){
+		// 	li_1.style.fontFamily = "Arial, sans-serif";
+		// 	li_1.style.fontSize = '30px';
+		// 	li_1.style.color = '#06900c';
+		// 	let cut = li_1.textContent.split(" ");
+		// 	li_1.textContent = "";
+		// 	for(var i = 0; i < cut.length; i++){
+		// 		li_1.textContent = li_1.textContent + cut[i].charAt(0).toUpperCase() + cut[i].substring(1) + " ";
+		// 	}
+		// 	li_1.textContent = li_1.textContent.trim();
+		// }
+
+		// let li_2 = document.getElementsByTagName("li")[1];
+		// li_2.addEventListener("click",b);
+		// function b(){
+		// 	li_2.style.fontFamily = "Arial, sans-serif";
+		// 	li_2.style.fontSize = '30px';
+		// 	li_2.style.color = '#06900c';
+		// 	let cut = li_2.textContent.split(" ");
+		// 	li_2.textContent = "";
+		// 	for(var i = 0; i < cut.length; i++){
+		// 		li_2.textContent = li_2.textContent + cut[i].charAt(0).toUpperCase() + cut[i].substring(1) + " ";
+		// 	}
+		// 	li_2.textContent = li_2.textContent.trim();		}
+
+		// let li_3 = document.getElementsByTagName("li")[2];
+		// li_3.addEventListener("click",c);
+		// function c(){
+		// 	li_3.style.fontFamily = "Arial, sans-serif";
+		// 	li_3.style.fontSize = '30px';
+		// 	li_3.style.color = '#06900c';
+		// 	let cut = li_3.textContent.split(" ");
+		// 	li_3.textContent = "";
+		// 	for(var i = 0; i < cut.length; i++){
+		// 		li_3.textContent = li_3.textContent + cut[i].charAt(0).toUpperCase() + cut[i].substring(1) + " ";
+		// 	}
+		// 	li_3.textContent = li_3.textContent.trim();		}
+
+			//viet bang jquery
+			$('ul').on("click",function(event)){
+				event.target.css({
+					'font-family' : 'Arial, sans-serif',
+					'font-size' : '30px',
+					'color' : '#06900c',
+					'text-transform' : 'capitalize'
+				});
+			}
+	</script>
+
+</body>
+</html>

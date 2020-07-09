@@ -1,0 +1,267 @@
+*{
+	margin:0;
+	padding:0;
+}
+.to{
+	width:90%;
+	position: absolute;
+	left: 5%;
+	right: 5%;
+}
+.a{
+	height: 50px;
+	background: #cc6161;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.b{
+	width: 100%;
+	height: 100px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 26px;
+}
+.c{
+	float: left;
+	background: #d9d9d9;
+	height: 100%;
+}
+.d{
+	float: right;
+	background: #d9d9d9;
+	height: 100%;
+}
+.e{
+	height: 200px;
+	width: 100%;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 49.7% 49.7%;
+	grid-gap: 25px;
+}
+.f1{
+	height: 100%;
+	float: left;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 10px;
+}
+.g4{
+	background: #d9d9d9;
+	float: left;
+}
+.g1{
+	background: #d9d9d9;
+	height: 47.7%;
+	margin-bottom: 10px;
+}
+.h1{
+	background: #d9d9d9;
+	height: 47.6%;
+}
+.ngoai{
+	float: right;
+	height: 100%;
+}
+.f2{
+	height: 100%;
+	float: right;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 10px
+}
+.g3{
+	background: #d9d9d9;
+	float: left;
+}
+.g2{
+	background: #d9d9d9;
+	height: 47.7%;
+	margin-bottom: 10px;
+}
+.h2{
+	background: #d9d9d9;
+	height: 47.7%;
+}
+.ngoai2{
+	float: right;
+	height: 100%;
+}
+.l{
+	width: 60%;
+	background: #d9d9d9;
+	height: 40px;
+	margin-top: 20px;
+}
+.m{
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 20% 30% 50%;
+	grid-gap: 13.5px
+}
+.m1{
+	background: #d9d9d9;
+	height: 100%;
+
+}
+.m2{
+	background: #d9d9d9;
+	height: 100%;
+}
+.m3{
+	background: #d9d9d9;
+	height: 100%;
+}
+.mansory{
+	width: 100%;
+	height: auto;
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	grid-gap: 13.5px;
+	margin-top: 20px;
+}
+.mansory1a{
+	height: 300px;
+	margin-bottom: 10px;
+	background: #d9d9d9;
+}
+.mansory1b{
+	height: 300px;
+	margin-bottom: 10px;
+	background: #d9d9d9;
+}
+.mansory1c{
+	height: 300px;
+	background: #d9d9d9;
+}
+.mansory2a{
+	height: 350px;
+	margin-bottom: 10px;
+	background: #d9d9d9;
+}
+.mansory2b{
+	height: 500px;
+	background: #d9d9d9;
+}
+.mansory3a{
+	height: 200px;
+	margin-bottom: 10px;
+	background: #d9d9d9;
+}
+.mansory3b{
+	height: 300px;
+	margin-bottom: 10px;
+	background: #d9d9d9;
+}
+.mansory3c{
+	height: 500px;
+	background: #d9d9d9;
+}
+.v1{
+	float: left;
+	background: green;
+	width: 100px;
+	height: 100px;
+}
+.v2{
+	float: left;
+	background: red;
+	width: 100px;
+	height: 100px;
+}
+.v3{
+	float: left;
+	background: pink;
+	width: 100px;
+	height: 100px;
+}
+.v4{
+	float: left;
+	background: blue;
+	width: 100px;
+	height: 100px;
+}
+.v5{
+	float: left;
+	background: yellow;
+	width: 100px;
+	height: 100px;
+}
+.v6{
+	float: left;
+	background: orange;
+	width: 100px;
+	height: 100px;
+}
+.big{
+	width: 80%;
+	position: absolute;
+	left: 25%
+}
+.v1a{
+	float: left;
+	background: white;
+	width: 50px;
+	height: 100px;
+}
+.v2a{
+	float: left;
+	background: violet;
+	width: 100px;
+	height: 100px;
+}
+.v3a{
+	float: left;
+	background: white;
+	width: 100px;
+	height: 100px;
+}
+.v4a{
+	float: left;
+	background: brown;
+	width: 100px;
+	height: 100px;
+}
+.v5a{
+	float: left;
+	background: white;
+	width: 100px;
+	height: 100px;
+}
+.v6a{
+	float: left;
+	background: yellowgreen;
+	width: 100px;
+	height: 100px;
+}
+.v7a{
+	float: left;
+	background: white;
+	width: 50px;
+	height: 100px;
+}
+.big1{
+	width: 80%;
+	margin-top: 100px;
+	position: absolute;
+	left: 25%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

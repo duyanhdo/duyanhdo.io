@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yeu Ngoc</title>
+	<style type="text/css">
+		body{
+			height: 100%;
+			position: relative;
+		}
+		.p1{
+			font-size: 30px;
+			color: #27ae60;
+			z-index: 2;
+			position: fixed;
+			top: 50px;
+			left: 37%;
+		}
+		.p2{
+			color: #e29110;
+			font-size: 26px;
+			position: fixed;
+			top: 20px;
+			left: 41%;
+			z-index: 2;
+		}
+		a{
+		    text-decoration: none;
+		    color: #da2c1a;
+		    display: block;
+		    margin-top: 280px;
+		    text-align: center;
+		    margin-top: 450px;
+		    position: fixed;
+		    top: 150px;
+		    left: 38%;
+		    z-index: 2;
+		}
+		img{
+			width: 300px;
+			float: left;
+			height: 350px;
+			position: absolute;
+			left: 39%;
+		}
+		p{
+			text-align: center;
+			color: #0847ad;
+			position: fixed;
+			top: 550px;
+			left: 43%;
+			z-index: 2;
+		}
+		.backgroundimage{
+			width: 100%;
+			position: fixed;
+			z-index: 1;
+			height: 100%;
+			opacity: 0.6;
+			top: 0;
+			left: 0;
+		}
+		.img{
+			position: fixed;
+			z-index: 2;
+			top:150px;
+		}
+	</style>
+</head>
+<body>
+	<img class="backgroundimage" src="66884446_1289033381246635_5846517209408471040_n.jpg">
+	<p class="p1">Anh yeu em nhat tren doi lun do</p>
+	<p class="p2">Cong chua cua anh hihi</p>
+	<img class="img img1" src="53359611_651345775320443_1661087818727817216_n.jpg">
+	<img class="img img2" src="51951533_382742325842850_8131232720442359808_n.jpg">
+	<img class="img img3" src="45435785_1925740087540705_48824075824398336_n.jpg">
+	<a href="selfstudy1.html">An vao day de quay ve cho trai tim rung rinh neee</a>
+	<p>Nho an vao anh nua nha</p>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$('.img3').on("click",function(){
+				$('.img3').css({"margin-left":"315px","transition":"0.5s"});
+			})
+			$('.img2').on("click",function(){
+				$('.img2').css({"margin-left":"-315px","transition":"0.5s"});
+			})
+			$('.img3').on("dblclick",function(){
+				$('.img3').css({"margin-left":"0","transition":"0.5s"});
+			})
+			$('.img2').on("dblclick",function(){
+				$('.img2').css({"margin-left":"0","transition":"0.5s"});
+			})
+		});
+	</script>
+</body>
+</html>

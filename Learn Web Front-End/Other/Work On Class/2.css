@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%
+}
+.to{
+	height: 400px;
+	width: 100%;
+	position: relative;
+}
+.trai{
+	height: 100%;
+	width: 33%;
+	background: red;
+	line-height: 400px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.phai{
+	height: 100%;
+	width: 33%;
+	background: blue;
+	line-height: 400px;
+	position: absolute;
+	right:0;
+	top:0;
+}
+.giua{
+	height: 100%;
+	width: 34%;
+	background: green;
+	line-height: 400px;
+	position: absolute;
+	left:33%;
+	top:0;
+}
+div{
+	color: white;
+	text-align: center;
+}
