@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Sf Pro Display;
+	background-image: url("../images/parallax.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	border-radius: 10px;
+	background-color: white;
+}
+.name{
+	font-size: 45px;
+	font-weight: 500;
+	color: #795548;
+}
+.title{
+	font-weight: 200;
+	color: #a95d42;
+}
+.progress{
+	border-radius: 0;
+}
+.size{
+	font-size: 20px;
+}
+.color{
+	color: #795548;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.same{
+	margin-bottom: 30px;
+}
+.skill{
+	margin-bottom: 30px;
+}

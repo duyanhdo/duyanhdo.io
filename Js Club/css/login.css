@@ -1,0 +1,29 @@
+.title{
+	font-size: 2.5vw;
+	margin-bottom: 6vw;
+    font-weight: bold;
+}
+.inputcss{
+    width: 100%;
+    outline: none;
+    padding: 5px 0px;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+.log{
+    width: 100%;
+    border-radius: 20px;
+    padding: 7px 0;
+    outline: none;
+    transition: .3s;
+}
+.log:active{
+    transform: scale(0.9);
+    box-shadow: none!important;
+}
+.log:hover{
+   color:white !important;
+   background: #4285f4!important;
+}
+

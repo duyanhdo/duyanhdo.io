@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example</title>
+  <link rel="stylesheet" href="style.css" />
+  <style type="text/css">
+    * {
+      box-sizing: border-box;
+    }
+    table {
+      border: 1px solid black;
+      width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
+      table-layout: auto;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-bottom: none;
+      text-align: center;
+      padding: 0;
+    }
+
+    td{
+      max-width: 100px;
+      min-height: 50px;
+      word-wrap: break-word;
+    }
+
+    .none{
+      border-right: none;
+      border-left: none;
+    }
+
+    .none1{
+      border-right: 1px solid white;
+      border-left: 1px solid white;
+    }
+
+    .bot{
+      border-bottom: 2px solid black;
+    }
+
+    .lh{
+      line-height: 40px;
+    }
+
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">1</th>
+        <th rowspan="2">2</th>
+        <th rowspan="2">3</th>
+        <th rowspan="2">4</th>
+        <th rowspan="2">5</th>
+        <th rowspan="2">6</th>
+        <th colspan="2" height="50">7</th>
+        <th rowspan="2">8</th>
+        <th rowspan="2">9</th>
+        <th rowspan="2">10</th>
+        <th rowspan="2">11</th>
+      </tr>
+      <tr height="40">
+        <th>7.1</th>
+        <th>7.2</th>
+      </tr>
+    </thead>
+    <tbody class="lh">
+      <tr>
+        <td>2.1</td>
+        <td>2.2</td>
+        <td>2.3</td>
+        <td>2.4</td>
+        <td>2.5</td>
+        <td>2.6</td>
+        <td>2.7.1</td>
+        <td>2.7.2</td>
+        <td>2.8</td>
+        <td>2.9</td>
+        <td>2.10</td>
+        <td>2.11</td>
+      </tr>
+    </tbody>
+    <tfoot heig>
+      <tr class="none1">
+        <td class="none"></td>
+        <td class="none"></td>
+        <td class="none"></td>
+        <td class="none"></td>
+        <td class="none"></td>
+        <td class="bot" style="text-align: left;padding-left: 5px;">abc</td>
+        <td class="none"></td>
+        <td class="bot" style="text-align: right;padding-right: 5px;">sum</td>
+        <td class="none"></td>
+        <td class="bot" style="text-align: right;padding-right: 5px;">$</td>
+        <td class="bot" style="text-align: right;padding-right: 5px;">$</td>
+        <td class="none"></td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>

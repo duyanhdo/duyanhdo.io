@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Club</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<style type="text/css">
+		img{
+			width: 100%;
+			height: 600px;
+		}
+		.footer,nav{
+			background-color: #C33232;
+			color: white;
+		}
+		nav a{
+			color: white;
+		}
+		.login{
+			padding: 8px 12px;
+			border: 1px solid white;
+			border-radius: 5px;
+		}
+		.signup{
+			padding: 8px 12px;
+			border-radius: 5px;
+			background-color: #2f2c2ceb;
+			border: 1px solid black;
+		}
+		nav a:hover{
+			color: white;
+			opacity: 0.7;
+		}
+	</style>
+</head>
+<body>
+	<nav id="nav" class="navbar navbar-expand-lg">
+		<a class="navbar-brand" href="cfsDisplay.html">JS Club</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="confess.html">Confession</a>
+				<a class="nav-item nav-link" href="event.html">Event</a>
+				<a class="nav-item nav-link" href="training.html">Training</a>
+			</div>
+		</div>
+		<div>
+			<a href="login.html" class="login">Log In</a>
+			<a href="register.html" class="signup">Sign Up</a>
+		</div>
+	</nav>
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Second slide label</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<img src="images/1.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Second slide label</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<img src="images/2.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Second slide label</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<img src="images/1.jpg" class="d-block w-100" alt="...">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<div class="container mt-5">
+		<h1>Đề bài tháng thử thách ban Chuyên Môn</h1>
+		<p>Một số lưu ý: - Tháng thử dành cho các CTV của câu lạc bộ JS kéo dài từ khoảng 7/1 -> 12/3. - Trong thời gian thử thách, tất cả CTV được yêu cầu tham gia tất cả các sự kiện do CTV ban khác tổ chức. Tinh thần tham gia của tất cả các bạn sẽ được CLB theo dõi. - Mỗi team sẽ có 1 takecare và 1 mentor. Mentor là người hỗ trợ các bạn trong vấn đề chuyên môn. Takecare là người theo sát, là cầu nối giữa team bạn và CLB. - Với mỗi buổi họp của team, phải có biên bản họp và phải nộp biên bản họp cho takecare ngay sau buổi họp, form biên bản họp được để trong folder Files
+		</p>
+		<table class="table my-5 text-center table-bordered table-dark">
+			<thead>
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">First</th>
+					<th scope="col">Last</th>
+					<th scope="col">Handle</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+				</tr>
+				<tr>
+					<th scope="row">2</th>
+					<td>Jacob</td>
+					<td>Thornton</td>
+					<td>@fat</td>
+				</tr>
+				<tr>
+					<th scope="row">3</th>
+					<td colspan="2">Larry the Bird</td>
+					<td>@twitter</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="containaer-fluid">
+		<div class="row mx-0">
+			<div class="col-12 text-center footer py-3 mt-5">Copyright 2020 JS Club</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
